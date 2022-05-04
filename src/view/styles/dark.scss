@@ -1,0 +1,125 @@
+html.dark {
+	background-color: #1a1a1a;
+	color: #ccc;
+	a {
+		color: #6294ff;
+		&:visited {
+			color: #6294ff;
+		}
+	}
+	.button-primary {
+		border-color: #ccc;
+		background-color: #ccc;
+		color: #1a1a1a;
+		&:visited {
+			color: #1a1a1a;
+		}
+		&:focus {
+			background-color: #eee;
+		}
+		&:hover {
+			background-color: #eee;
+		}
+	}
+	.button-secondary {
+		border-color: #ccc;
+		background-color: #ccc;
+		color: #1a1a1a;
+		background-color: transparent;
+		color: #ccc;
+		&:visited {
+			color: #1a1a1a;
+			color: #ccc;
+		}
+		&:focus {
+			background-color: #eee;
+			border-color: #fff;
+			background-color: transparent;
+			color: #fff;
+		}
+		&:hover {
+			background-color: #eee;
+			border-color: #fff;
+			background-color: transparent;
+			color: #fff;
+		}
+	}
+	.reverse {
+		background-color: #ccc;
+		color: #1a1a1a;
+		.field {
+			background-color: #ccc;
+			color: #1a1a1a;
+			&:focus {
+				background-color: #eee;
+				color: #1d65ff;
+			}
+			&:hover {
+				background-color: #eee;
+				color: #1d65ff;
+			}
+		}
+	}
+	.box {
+		border-color: #ccc;
+	}
+	.field {
+		color: #ccc;
+		&:focus {
+			background-color: #333;
+		}
+		&:hover {
+			background-color: #333;
+		}
+	}
+	.field-visible {
+		background-color: #333;
+		color: #ccc;
+	}
+	.sheet-nav {
+		border-bottom: 1px solid #ccc;
+		background-color: #1a1a1a;
+		button {
+			background-color: #1a1a1a;
+			color: #ccc;
+			&:focus {
+				color: #6294ff;
+			}
+			&:hover {
+				color: #6294ff;
+			}
+		}
+		.active {
+			button {
+				background-color: #1d65ff;
+				color: #fff;
+				&:focus {
+					color: #fff;
+				}
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.quill-editor {
+		background-color: #222;
+		color: #ccc;
+		[contenteditable] {
+			color: #ccc;
+		}
+		a {
+			color: #6294ff;
+		}
+	}
+	.mini-icon {
+		svg {
+			fill: #ccc;
+		}
+	}
+	.sheet-list {
+		li {
+			border-bottom-color: hsla(0,0%,100%,.2);
+		}
+	}
+}
