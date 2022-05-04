@@ -5,8 +5,8 @@ import Login from '/src/view/components/login.vue'
 </script>
 
 <template>
-  <div class="layout" h-full text-center flex select-none>
-    <div ma>
+  <div class="layout">
+    <div>
       <p p-2 m-0 flex absolute top-0 left-0 op50 fw300 gap-2>
         <i i-carbon:undo class="icon-btn" @click="$router.go(-1)" />
         <i i-carbon:redo class="icon-btn" @click="$router.go(1)" />
@@ -35,3 +35,9 @@ import Login from '/src/view/components/login.vue'
     </footer>
   </div>
 </template>
+
+<style>
+.layout{
+  @apply container mx-auto h-full
+}
+</style>

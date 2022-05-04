@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-export const useCatalog = defineStore('catalog-store', {
+export const useCatalogStore = defineStore('catalog-store', {
   state: () => {
     return {
       newArrivals: [],
@@ -24,7 +24,7 @@ export const useCatalog = defineStore('catalog-store', {
       const response = await fetch('/api/books')
       try {
         const result = await response.json()
-        this.newArrivals = result.books
+        this.newArrivals = result
       }
       catch (err) {
         this.newArrivals = []

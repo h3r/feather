@@ -21,6 +21,9 @@ Back-end is a silly and limited but effective json based database (json-server) 
 * unocss.config.ts
 
 ## Personal notes:
-[About the layout](https://markus.oberlehner.net/blog/dynamic-vue-layout-components/)
-[Handling global state](https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/)
-[Vue3 + Pinia](https://hackernoon.com/build-a-single-page-web3-app-with-vue-3-vite-and-pinia)
+* [About the layout](https://markus.oberlehner.net/blog/dynamic-vue-layout-components/)
+* [Handling global state](https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/)
+* [Vue3 + Pinia](https://hackernoon.com/build-a-single-page-web3-app-with-vue-3-vite-and-pinia)
+* [Headless UI](https://headlessui.dev/vue/menu)
+* [TailwindCSS](https://tailwindcss.com/docs/columns)
+* [Tailwind Elements](https://tailwind-elements.com/quick-start/)
